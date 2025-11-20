@@ -11,8 +11,8 @@ namespace Tyuiu.ZheleznyakDN.Sprint2.Task2.V4
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Логические операции                                               *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #29                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #4                                                             *");
             Console.WriteLine("* Выполнил: Железняк Дамир Николаевич | ПКТб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
