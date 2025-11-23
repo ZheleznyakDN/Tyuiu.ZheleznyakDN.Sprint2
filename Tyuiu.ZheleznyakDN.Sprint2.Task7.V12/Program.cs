@@ -29,6 +29,7 @@ namespace Tyuiu.ZheleznyakDN.Sprint2.Task7.V12
             Console.Write("Введите координату Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
