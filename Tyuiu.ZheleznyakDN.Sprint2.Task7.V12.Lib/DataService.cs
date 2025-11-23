@@ -5,10 +5,15 @@ namespace Tyuiu.ZheleznyakDN.Sprint2.Task7.V12.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool area1 = (x <= 0) && (y >= 2 - x) && (y >= x * x);
-            bool area2 = (x >= 0) && (y <= 2 - x) && (y >= x * x);
+            bool leftArea =
+                (x <= 0) &&
+                (y >= 2 - x);
 
-            return area1 || area2;
+            bool rightArea =
+                (x >= 0) &&
+                (y <= 2 - x);
+
+            return leftArea || rightArea;
         }
     }
 }
