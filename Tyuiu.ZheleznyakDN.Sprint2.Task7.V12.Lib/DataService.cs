@@ -5,9 +5,8 @@ namespace Tyuiu.ZheleznyakDN.Sprint2.Task7.V12.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool area1 = (y >= x * x) && (y <= 2 - x);
-            bool area2 = (y <= x * x) && (y >= 2 - x);
-
+            bool area1 = (x <= 0) && (y >= 2 - x) && (y >= x * x);
+            bool area2 = (x >= 0) && (y <= 2 - x) && (y >= x * x);
 
             return area1 || area2;
         }
